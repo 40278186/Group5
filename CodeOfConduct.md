@@ -29,5 +29,5 @@ Scott "Scrum Master" Macleod - In Group Chat
 Contact information is also available upon request
 
 ### 8. Sign-Off
-- [ ] Scott Paul - Product Owner
+- [x] Scott Paul - Product Owner
 - [x] Scott Macleod - Scrum Master
