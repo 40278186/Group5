@@ -1,1 +1,1 @@
-:sparkles: **Group 5 Official Code of Conduct** :sparkles:
+# :sparkles: **Group 5 Official Code of Conduct** :sparkles:
