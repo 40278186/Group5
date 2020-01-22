@@ -1,0 +1,28 @@
+*This document will be the template for all Scrum and Sprint Planning meetings going forward. Each team member must contribute to all the questions listed below. This document does not require to be edited by everyone, the questions will be answered at the meetings and notes will be taken by the Scrum Master and documented in a separate file.*
+
+What was done?
+What wasn't done and why?
+What went well?
+What can be improved?
+What will we commit to doing in this Sprint?
+
+*Extra points to discuss for this meeting only:*
+
+Code Review 1 (due 28th January):
+Checklist Submission 1 (16% of CW mark)
+The following must be in place:
+
+ GitHub project for coursework set-up.
+ Product Backlog created.
+ Project builds to self-contained JAR with Maven.
+ Dockerfile for project set-up and works.
+ Travis CI for project set-up and build is working using JAR, and Docker on Travis CI.
+ Correct branches for GitFlow workflow created - includes master, develop, and release branches.
+ First release created on GitHub.
+ Code of Conduct defined.
+
+Graded Criteria Submission 1 (4% of CW mark)
+The following criteria will be assessed for overall quality:
+
+Metrics from GitHub. Also used to assess individual contribution.
+Code quality including comments.
