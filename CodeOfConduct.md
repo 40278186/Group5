@@ -31,3 +31,4 @@ Contact information is also available upon request
 ### 8. Sign-Off
 - [x] Scott Paul - Product Owner
 - [x] Scott Macleod - Scrum Master
+- [x] Mark Weir
