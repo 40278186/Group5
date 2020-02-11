@@ -1,0 +1,54 @@
+--All the countries in the world organised by largest population to smallest
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	ORDER BY Population DESC;
+
+--All the countries in a continent organised by largest population to smallest
+	--may need user input?
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	WHERE Continent = "<user_input>"
+	ORDER BY Population DESC;
+
+--All the countries in a region organised by largest population to smallest
+	--may need user input?
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	WHERE Region = "<user_input>"
+	ORDER BY Population DESC;
+
+--The top N populated countries in the world where N is provided by the user
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	ORDER BY Population DESC
+	LIMIT <N>;
+
+--The top N populated countries in a continent where N is provided by the user
+  --either user input of a selection of some sort
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	WHERE Continent = "<user_input>"
+	ORDER BY Population DESC
+	LIMIT <N>;
+
+--The top N populated countries in a region where N is provided by the user
+  --either user input of a selection of some sort
+	SELECT Code, Name, Continent, Region, Population, Capital FROM country
+	WHERE Region = "<user_input>"
+	ORDER BY Population DESC
+	LIMIT <N>;
+  
+--All the cities in the world organised by largest population to smallest
+--All the cities in a continent organised by largest population to smallest
+--All the cities in a region organised by largest population to smallest
+--All the cities in a country organised by largest population to smalles
+--All the cities in a district organised by largest population to smallest
+--The top N populated cities in the world where N is provided by the user.
+--The top N populated cities in a continent where N is provided by the user.
+--The top N populated cities in a region where N is provided by the user.
+--The top N populated cities in a country where N is provided by the user.
+--The top N populated cities in a district where N is provided by the user.
+  -- will need to have Country brought in from Country table, can link with CountryCode which is present in both tables
+--All the capital cities in the world organised by largest population to smallest.
+--All the capital cities in a continent organised by largest population to smallest.
+--All the capital cities in a region organised by largest to smallest.
+--The top N populated capital cities in the world where N is provided by the user.
+--The top N populated capital cities in a continent where N is provided by the user.
+--The top N populated capital cities in a region where N is provided by the user.
+  -- Can get Name and Country from the Country table, however population will need to come from the city table
+	
