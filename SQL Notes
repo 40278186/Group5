@@ -44,6 +44,10 @@
 --The top N populated cities in a country where N is provided by the user.
 --The top N populated cities in a district where N is provided by the user.
   -- will need to have Country brought in from Country table, can link with CountryCode which is present in both tables
+  	--Below is able to get the name of the country by using the countrycode, still need to filter it down after this though
+	--select city.Name, city.CountryCode, country.Name FROM city
+	--left join country on city.CountryCode = country.Code;
+  
 --All the capital cities in the world organised by largest population to smallest.
 --All the capital cities in a continent organised by largest population to smallest.
 --All the capital cities in a region organised by largest to smallest.
