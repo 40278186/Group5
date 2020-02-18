@@ -4,11 +4,13 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
+import java.util.Scanner;
 
 public class App
 {
     public static void main(String[] args)
     {
+        /*
         // Connect to MongoDB
         MongoClient mongoClient = new MongoClient("mongo-dbserver");
         // Get a database - will create when we use it
@@ -26,5 +28,8 @@ public class App
         // Check document in collection
         Document myDoc = collection.find().first();
         System.out.println(myDoc.toJson());
+        */
+
+        menuMain launch = new menuMain();
     }
 }
