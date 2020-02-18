@@ -1,5 +1,7 @@
 package com.napier.sem;
 
+import java.util.Scanner;
+
 public class countryReport
 {
 
@@ -13,7 +15,12 @@ public class countryReport
         Scanner input = new Scanner(System.in);
         System.out.println(menu);
         choice = Integer.parseInt(input.nextLine());
-        
+
+        switch(choice)
+        {
+            //to implement routes based on user choice
+        }
+
     }
 
 }
