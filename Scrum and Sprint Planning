@@ -8,25 +8,21 @@ What will we commit to doing in this Sprint?
 
 Extra points to discuss for this meeting only:
 
-The aim of this code review is to check that task management is set-up and that the initial requirements gathering has taken place via user stories and use cases. You should have completed at least 25% of the work for the project at this point based on your own estimates.
+The aim of this code review is to check that testing has been correctly specified. At this stage, at least 50% of the work of the project should be completed.
 
-Checklist Submission 2 (14% of CW mark)
+Checklist Submission 3 (12% of CW mark)
 The following must be in place:
 
-Issues being used on GitHub.
-Tasks defined as user stories.
-Project integrated with Zube.io.
-Kanban/Project Board being used.
-Sprint Boards being used.
-Full use cases defined.
-Use case diagram created.
-
-Graded Criteria Submission 2 (6% of CW mark)
+ Suitable unit tests defined.
+ Suitable integration tests defined.
+ Tests running on Travis CI.
+Graded Criteria Submission 3 (8% of CW mark)
 The following criteria will be assessed for overall quality:
 
 Metrics from GitHub. Also used to assess individual contribution.
 Code quality including comments.
 Correct usage of branches.
 Continuous integration working.
-Use cases well defined.
+Kanban/Project Board being used.
+Quality and coverage of unit tests.
 Project requirements met.
