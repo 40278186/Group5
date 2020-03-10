@@ -3,11 +3,7 @@ sudo: required
 language: java
 
 services:
-- docker
+  - docker
 
 after_success:
-- docker network create --driver bridge group5
-- docker pull mongo
-- docker run -d --name mongo-dbserver --network group5 mongo
-- docker build -t group5 .
-- docker run --network group5 group5
+  - docker-compose up --abort-on-container-exit
