@@ -1,13 +1,20 @@
-sudo: required
-
 language: java
 
-services:
-- docker
+sudo: false
 
-after_success:
-- docker network create --driver bridge group5
-- docker pull mongo
-- docker run -d --name mongo-dbserver --network group5 mongo
-- docker build -t group5 .
-- docker run --network group5 group5
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: unit tests
+      install: skip
+      jdk: oraclejdk11
+      script: mvn test -Dtest=Group5.MyTest
+    - stage: integration tests
+      jdk: oraclejdk11
+      script: echo "Integration Tests"
+    - stage: deploy
+      install: skip
+      jdk: oraclejdk11
+      script: echo "Deploy"
